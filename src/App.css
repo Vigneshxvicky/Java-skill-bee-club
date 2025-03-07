@@ -1,0 +1,246 @@
+* {
+  padding: 0;
+  margin: 0;
+}
+
+:root {
+  --primary-color: #2a5c82; /* Deep blue */
+  --secondary-color: #ff6b35; /* Vibrant orange */
+  --text-dark: #333;
+  --text-light: #f8f9fa;
+}
+
+body {
+  background-color: hsl(0, 100%, 65%);
+
+  /* background: linear-gradient(rgba(42, 92, 130, 0.9), rgba(42, 92, 130, 0.9)) center/cover; */
+  background-repeat: no-repeat;
+  background-size: cover;
+  color: var(--text-dark);
+  line-height: 1.6;
+  display: flex;
+  flex-direction: column;
+}
+.banner {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: white;
+}
+
+.banner img {
+  width: 75%;
+  height: 80px;
+}
+
+/* Header */
+.header {
+  /* background: rgba(255, 255, 255, 0.95); */
+  background-color: white;
+  padding: 1rem 2rem;
+  position: fixed;
+  width: 100%;
+  height: 40px;
+  z-index: 1000;
+  box-shadow: 0 2px 15px rgba(0, 0, 0, 0.1);
+}
+#join {
+  display: none;
+}
+
+.navbar {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  /* max-width: 1200px; */
+  margin: 0 auto;
+  background-color: white;
+}
+
+.logo img {
+  height: 80px;
+  transition: transform 0.3s;
+  position: absolute;
+  top: 5%;
+}
+
+.logo:hover img {
+  transform: scale(1.05);
+}
+
+.nav-links {
+  display: flex;
+  gap: 2rem;
+  list-style: none;
+}
+
+.nav-links a {
+  text-decoration: none;
+  color: var(--text-dark);
+  font-weight: 600;
+  transition: color 0.3s;
+}
+
+.nav-links a:hover {
+  color: var(--primary-color);
+}
+
+@media screen and (max-width: 750px) {
+  .cta-button {
+    background: var(--primary-color);
+    color: white !important;
+    padding: 0.5rem 1rem;
+    border-radius: 30px;
+    transition: all 0.3s;
+  }
+  .nav-links {
+    flex-direction: column;
+  }
+  .banner img {
+    width: 100%;
+    height: 50px;
+  }
+  .header {
+    height: 50px;
+  }
+  nav ul {
+    margin-top: 50px;
+  }
+  .navbar-toggler {
+    /* position: absolute; */
+    right: 0;
+  }
+  .logo img {
+    position: relative;
+    bottom: 0px;
+  }
+
+  #join {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100px;
+    height: 40px;
+    border-radius: 30px;
+    border: none;
+    background-color: #2a5c82;
+    color: white;
+    margin-left: auto;
+    position: absolute;
+    right: 15%;
+  }
+  .lg-view {
+    display: none;
+  }
+  .mySidenav {
+    display: block;
+  }
+  .side-nav-icon {
+    display: block;
+  }
+}
+
+@media screen and (min-width: 760px) {
+  nav ul {
+    position: relative;
+    top: 5px;
+  }
+  .logo img {
+    position: relative;
+    bottom: 10px;
+  }
+  nav {
+    height: 55px;
+  }
+  .lg-view {
+    display: flex;
+  }
+  #mySidenav {
+    display: none;
+  }
+  .side-nav-icon {
+    display: none;
+  }
+}
+
+/* CTA Buttons */
+.cta-button {
+  background: var(--primary-color);
+  color: white !important;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.cta-button:hover {
+  background: #1e425c;
+  transform: translateY(-2px);
+}
+
+.cta-button-outline {
+  border: 2px solid var(--primary-color);
+  color: var(--primary-color) !important;
+  padding: 0.8rem 1.5rem;
+  border-radius: 30px;
+  transition: all 0.3s;
+}
+
+.cta-button-outline:hover {
+  background: var(--primary-color);
+  color: white !important;
+}
+
+/* sidbar */
+.sidenav span {
+  position: absolute;
+  right: 0%;
+}
+.sidenav {
+  height: 100%;
+  width: 0;
+  position: fixed;
+  z-index: 1;
+  top: 0;
+  right: 0;
+  background: linear-gradient(rgba(42, 92, 130, 0.9), rgba(42, 92, 130, 0.9))
+    center/cover;
+  overflow-x: hidden;
+  transition: 0.5s;
+  padding-top: 60px;
+}
+
+.sidenav a {
+  padding: 8px 8px 8px 32px;
+  text-decoration: none;
+  font-size: 25px;
+  color: white;
+  display: block;
+  text-shadow: 0px 0px 5px black;
+  transition: 0.3s;
+}
+.sidenav li {
+  list-style: none;
+  font-family: "Poppins", sans-serif;
+  font-weight: bold;
+}
+
+.sidenav a:hover {
+  color: #f1f1f1;
+}
+
+.sidenav .closebtn {
+  position: absolute;
+  top: 0;
+  right: 25px;
+  font-size: 36px;
+  margin-left: 50px;
+}
+
+@media screen and (max-height: 450px) {
+  .sidenav {
+    padding-top: 15px;
+  }
+  .sidenav a {
+    font-size: 18px;
+  }
+}

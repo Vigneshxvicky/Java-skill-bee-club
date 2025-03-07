@@ -1,0 +1,20 @@
+{
+  "files": {
+    "main.css": "/static/css/main.dcb15308.css",
+    "main.js": "/static/js/main.fda0c128.js",
+    "static/media/prncipal-R-sasikumar.jpg": "/static/media/prncipal-R-sasikumar.efa3fc40b9151e5a03f9.jpg",
+    "static/media/hod cse (1).jpg": "/static/media/hod cse (1).d3e5a51ff5614ef6edc1.jpg",
+    "static/media/Loganathan.jpg": "/static/media/Loganathan.070044cbf6bc37f3c2aa.jpg",
+    "static/media/java-skillbee-logo copy.jpg": "/static/media/java-skillbee-logo copy.68c243309a72e672c254.jpg",
+    "static/media/java-skillbee-logo copy.png": "/static/media/java-skillbee-logo copy.c8e28d842a144b696d21.png",
+    "static/media/Why-is-it-important-to-teach-your-child-coding-from-an-early-age-removebg-preview.png": "/static/media/Why-is-it-important-to-teach-your-child-coding-from-an-early-age-removebg-preview.3030c9e183401ddcb001.png",
+    "static/media/VMKVEC-LOGO.jpg": "/static/media/VMKVEC-LOGO.3af29f7b4cf1e85d5c93.jpg",
+    "index.html": "/index.html",
+    "main.dcb15308.css.map": "/static/css/main.dcb15308.css.map",
+    "main.fda0c128.js.map": "/static/js/main.fda0c128.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.dcb15308.css",
+    "static/js/main.fda0c128.js"
+  ]
+}
