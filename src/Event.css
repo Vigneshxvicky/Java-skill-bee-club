@@ -1,6 +1,7 @@
 .events {
     padding: 5rem 2rem;
-    background-color: hsl(0, 100%, 65%);
+    background-color: hsl(0, 100%, 65%);    
+    background-image: url("./bgimage.jpg");
 
     background-repeat: no-repeat;
     background-size: cover;

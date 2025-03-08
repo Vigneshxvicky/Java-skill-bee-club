@@ -5,7 +5,7 @@ import  './ProjectCard.css'
 
 const ProjectCard = ({ project }) => {
   return (
-    <div className="project-card">
+      <div className="project-card">
       <i class="fa-solid fa-code me-auto fs-5" ></i>
       <h2>{project.title}</h2>
       

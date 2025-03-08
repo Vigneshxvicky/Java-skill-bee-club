@@ -2,6 +2,8 @@
     padding: 5rem 2rem;
     /* background: linear-gradient(rgba(42, 92, 130, 0.9), rgba(42, 92, 130, 0.9)) center/cover; */
     background-color: hsl(0, 100%, 65%);
+    background-image: url("./bgimage.jpg");
+
     background-repeat: no-repeat;
     background-size: cover;
     width: 100%;

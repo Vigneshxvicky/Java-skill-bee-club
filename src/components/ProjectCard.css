@@ -64,6 +64,8 @@
     flex-wrap: wrap;
     flex-direction: column;
     background-color: hsl(0, 100%, 65%);
+    background-image: url("../bgimage.jpg");
+
    }
 
   hr{

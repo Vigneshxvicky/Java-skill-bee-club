@@ -78,54 +78,48 @@ const projectDetails = {
   },
   '13': {
     id: '13',
-    title: 'Space-Invaders',
-    members: 'Arun Kumar,Rajasekar,Rajesh',
-    description: 'Space Invaders is a fixed shooter in which the player moves a laser cannon horizontally across the bottom of the screen and fires at aliens overhead. The aliens begin as five rows of eleven that move left and right as a group, shifting downward (advancing on the shooter) each time they reach a screen edge.',
-  },
-  '14': {
-    id: '14',
     title: 'Flappy Bird ',
     members: 'Soundareswaran,Vignesh,Sanjay Prakash',
     description: 'it is an endless runner game with a one-button gaming design to control a bird to fly through gaps between green pipes without hitting them for as long as you can. The gameplay was inspired by the challenge of bouncing a ping pong ball on a paddle as many times as you',
   },
+  '14': {
+    id: '14',
+    title: 'Space-Invaders',
+    members: 'Arun Kumar,Rajasekar,Rajesh',
+    description: 'Space Invaders is a fixed shooter in which the player moves a laser cannon horizontally across the bottom of the screen and fires at aliens overhead. The aliens begin as five rows of eleven that move left and right as a group, shifting downward (advancing on the shooter) each time they reach a screen edge.',
+  },
   '15': {
     id: '15',
-    title: 'Stock Management System (JDK-18).',
-    members: 'NIthya Sree,Mekala,Swetha,Sharuthika',
-    description: 'This is a Stock (Inventory) Management System project implemented in Java. It provides a user-friendly interface for managing various aspects of a inventory such as vendors, product stock records, sales, and billing. Vendors Management: Add, update, and view vendors records.',
-  },
-  '16': {
-    id: '16',
     title: 'Farming Assistant System',
     members: 'Rustam Mansuri,Suman Kumar,Raushan Raj',
     description: 'The Farming Assistant system collects and analyzes data from the farm and offers a planning feature. This feature determines the type of crops, quantities of fertilizers required, the time of application, and appropriate pest control. The system further suggests how and when to conduct different farm activities.',
   },
-  '17': {
-    id: '17',
+  '16': {
+    id: '16',
     title: 'Stock Management System',
     members: 'Yuvaraj , Aadharsh , Kathir , Midhunananthan , Chandranath',
     description: 'A stock management system is a software that helps businesses manage their inventory. It helps prevent stock shortages and overstocking. '
   },
-  '18': {
-    id: '18',
+  '17': {
+    id: '17',
     title: 'Chrome Dinosaur',
     members: 'Sankar ganesh , Monish kumar , Murugavel , Kamalesh , Senthammzh',
     description: 'There`s literally no end: get to the maximum possible score of 99,999 and the game simply resets itself. You can`t change direction and you have no control over your speed. All you can do is jump and duck. That`s plenty.'
   },
-  '19': {
-    id: '19',
+  '18': {
+    id: '18',
     title: 'Memory Cards',
     members: 'Saranya  , Dharshini , Sathiya priya  , Pooja sri , Monika, Megala , Dhanalakshmy',
     description: 'A memory card is a portable storage device that is commonly used in electronic devices such as digital cameras, smartphones, tablets, and gaming consoles. It is designed to store and transfer data, including photos, videos, music, and documents.'
   },
-  '20': {
-    id: '20',
+  '19': {
+    id: '19',
     title: 'Supermarket Billing',
     members: 'Shafiya Kullsum  , Thrisha , Srividhya  , Varsha  , Keerthana , Rafiya , Pooja , Reena ',
     description: 'Supermarket billing is a system that helps supermarkets calculate and display bills, and manage their sales, purchases, and inventory. It can also help with customer data, loyalty programs, and accounting. '
   },
-  '21': {
-    id: '21',
+  '20': {
+    id: '20',
     title: 'Tic Tac Toe',
     members: 'Janet Salomon , Vignesh , Deepak kumar  , Devanand  , Ragul ',
     description: 'The game is played on a grid that`s 3 squares by 3 squares. You are X , your friend (or the computer in this case) is O . Players take turns putting their marks in empty squares. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.'
