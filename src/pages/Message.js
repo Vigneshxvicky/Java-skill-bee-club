@@ -19,6 +19,7 @@ import '../pages/Message.css'
 import Pri from '../images/prncipal-R-sasikumar.jpg'
 import HOD from '../images/hod cse (1).jpg'
 import Co from '../images/Loganathan.jpg'
+import Footer from '../Footer';
 
 
 
@@ -64,12 +65,15 @@ const MessageCard = ({name,img,clg,role, message }) => (
 );
 
 const MessagePage = () => (
+  <div>
   <div className="message-page">
     <h1 className='text-white'><b>Messages</b></h1>
 
     {messages.map((msg, index) => (
       <MessageCard key={index} role={msg.role} name={msg.name} clg={msg.clg} img={msg.img} message={msg.message} />
     ))}
+  </div>
+      <Footer/>
   </div>
 );
 

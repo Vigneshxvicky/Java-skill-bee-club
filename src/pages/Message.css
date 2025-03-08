@@ -101,3 +101,106 @@
 
   
   /* background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%); */
+
+  .message-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: hsl(0, 100%, 65%);
+    background-image: url("../bgimage.jpg");
+    font-family: "Poppins", sans-serif;
+    padding: 20px;
+  }
+  
+  .message-card {
+    display: flex;
+    align-items: center;
+    border: 1px solid #ddd;
+    border-radius: 15px;
+    padding: 16px;
+    margin: 16px 0;
+    width: 80%;
+    background-image: linear-gradient(to top, #fddb92 0%, #d1fdff 100%);
+    box-shadow: 2px 3px 5px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+  }
+  
+  .message-card:hover {
+    transform: scale(1.05);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2);
+  }
+  
+  .icon {
+    margin-right: 16px;
+    width: 250px;
+    text-align: center;
+  }
+  
+  .icon img {
+    box-shadow: 15px 7px 5px 3px rgba(29, 29, 255, 0.5);
+    border-radius: 10%;
+    width: 100%;
+    height: auto;
+    object-fit: cover;
+  }
+  
+  .text h2 {
+    margin: 0;
+    font-size: 1.5em;
+    color: #333;
+  }
+  
+  .text h6 {
+    margin: 0;
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .text .clg {
+    font-size: 1rem;
+    color: #777;
+  }
+  
+  .text .msg {
+    font-size: 1rem;
+    color: #555;
+    margin-top: 0.5em;
+  }
+  
+  @media (max-width: 600px) {
+    .icon img {
+      width: 200px;
+      height: auto;
+    }
+  
+    .message-card h2 {
+      font-size: 20px;
+    }
+    .message-card h6 {
+      font-size: 16px;
+    }
+    .message-card .clg {
+      font-size: 15px;
+    }
+    .message-card .msg {
+      font-size: 13px;
+    }
+  
+    .message-card {
+      flex-direction: column;
+      border-top-left-radius: 15%;
+      border-bottom-right-radius: 15%;
+    }
+  
+    .icon {
+      width: 100%;
+      text-align: center;
+    }
+  }
+  
+  hr {
+    border: none;
+    border-top: 1px solid #ddd;
+    margin: 10px 0;
+  }
+  

@@ -14,6 +14,7 @@ import Event from "./Event";
 import Projects from './pages/Projects';
 import ProjectDetail from './pages/ProjectDetail';
 import Message from './pages/Message'
+import Teams from "./pages/Teams";
 
 
 
@@ -60,6 +61,7 @@ function App() {
                 <li><Link to='/events'>Events</Link></li>
                 <li><Link to='./message'>Message</Link></li>
                 <li><Link to='/projects'>Projects</Link></li>
+                <li><Link to='/teams'>Teams</Link></li>
                 <li><a href="#contact" class="cta-button">Join Us</a></li>
             </ul>
       </div>
@@ -74,6 +76,7 @@ function App() {
                 <li><Link to='/events' onClick={closeNav}>Events</Link></li>
                 <li><Link to='./message' onClick={closeNav}>Message</Link></li>
                 <li><Link to='/projects' onClick={closeNav}>Projects</Link></li>
+                <li><Link to='/teams' onClick={closeNav}>Teams</Link></li>
                 <li><a href="#contact" class="cta-button">Join Us</a></li>
 </div>
 
@@ -92,7 +95,8 @@ function App() {
         <Route path="/about" element={<About/>} />
          <Route path="/events" element={<Event/>}/>
          <Route path="/message" element={<Message/>}/>
-         <Route path="/Projects" element={<Projects/>}/>
+         <Route path="/Projects" element={<Projects/>}/>        
+         <Route path="/teams" element={<Teams/>}/>        
          <Route path="/projects/:id" element={<ProjectDetail />} />
       </Routes>
       

@@ -1,20 +1,39 @@
 {
   "files": {
-    "main.css": "/static/css/main.dcb15308.css",
-    "main.js": "/static/js/main.fda0c128.js",
+    "main.css": "/static/css/main.9a360616.css",
+    "main.js": "/static/js/main.bb9727d6.js",
     "static/media/prncipal-R-sasikumar.jpg": "/static/media/prncipal-R-sasikumar.efa3fc40b9151e5a03f9.jpg",
     "static/media/hod cse (1).jpg": "/static/media/hod cse (1).d3e5a51ff5614ef6edc1.jpg",
+    "static/media/bgimage.jpg": "/static/media/bgimage.c5255b189e715c17be9b.jpg",
     "static/media/Loganathan.jpg": "/static/media/Loganathan.070044cbf6bc37f3c2aa.jpg",
     "static/media/java-skillbee-logo copy.jpg": "/static/media/java-skillbee-logo copy.68c243309a72e672c254.jpg",
     "static/media/java-skillbee-logo copy.png": "/static/media/java-skillbee-logo copy.c8e28d842a144b696d21.png",
+    "static/media/team5.jpg": "/static/media/team5.164cc465f2a11793bbcf.jpg",
+    "static/media/team17.jpg": "/static/media/team17.36beda8e15c313bbf9cf.jpg",
+    "static/media/team7.jpg": "/static/media/team7.d9c92e93553c03f250b5.jpg",
+    "static/media/team12.jpg": "/static/media/team12.6f7032f2481621b2c11b.jpg",
+    "static/media/team11.jpg": "/static/media/team11.a89eee63968964b1489a.jpg",
     "static/media/Why-is-it-important-to-teach-your-child-coding-from-an-early-age-removebg-preview.png": "/static/media/Why-is-it-important-to-teach-your-child-coding-from-an-early-age-removebg-preview.3030c9e183401ddcb001.png",
+    "static/media/team4.jpg": "/static/media/team4.280c1e5a58256105c41d.jpg",
+    "static/media/team20.jpg": "/static/media/team20.da72ffceb7f701e9210f.jpg",
+    "static/media/team1.jpg": "/static/media/team1.aba17ee4311478899445.jpg",
+    "static/media/team19.jpg": "/static/media/team19.9e20cbaf73b4ede7d687.jpg",
+    "static/media/team2.jpg": "/static/media/team2.1840d5bad885838483a1.jpg",
+    "static/media/team15.jpg": "/static/media/team15.ec78b0568e81f2f66f17.jpg",
+    "static/media/team13.jpg": "/static/media/team13.b7f2dd8ebfe22e2c0acd.jpg",
+    "static/media/team14.jpg": "/static/media/team14.02ff6fe3e924505bb569.jpg",
+    "static/media/team3.jpg": "/static/media/team3.53515ff23ce518c58d91.jpg",
+    "static/media/team10.jpg": "/static/media/team10.f3ff024fb083b02e834f.jpg",
+    "static/media/team8.jpg": "/static/media/team8.87b25934db2e402f025b.jpg",
+    "static/media/team16.jpg": "/static/media/team16.53b3f2279544bf6a009b.jpg",
+    "static/media/team9.jpg": "/static/media/team9.321d9948c2a9ca1c2dee.jpg",
     "static/media/VMKVEC-LOGO.jpg": "/static/media/VMKVEC-LOGO.3af29f7b4cf1e85d5c93.jpg",
     "index.html": "/index.html",
-    "main.dcb15308.css.map": "/static/css/main.dcb15308.css.map",
-    "main.fda0c128.js.map": "/static/js/main.fda0c128.js.map"
+    "main.9a360616.css.map": "/static/css/main.9a360616.css.map",
+    "main.bb9727d6.js.map": "/static/js/main.bb9727d6.js.map"
   },
   "entrypoints": [
-    "static/css/main.dcb15308.css",
-    "static/js/main.fda0c128.js"
+    "static/css/main.9a360616.css",
+    "static/js/main.bb9727d6.js"
   ]
 }

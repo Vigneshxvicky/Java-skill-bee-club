@@ -1,7 +1,7 @@
 import React from 'react'
 import './Event.css';
 import logo from './images/java-skillbee-logo copy.jpg'
-
+import Footer from './Footer';
 const Event = () => {
   return (
     <div>
@@ -22,6 +22,7 @@ const Event = () => {
           
         </div>
     </section>
+    <Footer/>   
     </div>
   )
 }
