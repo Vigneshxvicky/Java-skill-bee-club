@@ -1,7 +1,7 @@
 import React from "react";
 import { BrowserRouter as Router, Routes, Route, Link } from "react-router-dom";
 import Header from "./Header";
-import logo from './images/java-skillbee-logo copy.png'
+import logo from './pages/logo.jpg'
 import banner from './images/VMKVEC-LOGO.jpg'
 
 import './App.css'

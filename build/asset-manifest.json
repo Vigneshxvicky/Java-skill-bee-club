@@ -1,12 +1,13 @@
 {
   "files": {
     "main.css": "/static/css/main.ce540eb6.css",
-    "main.js": "/static/js/main.eb93f462.js",
+    "main.js": "/static/js/main.c0c44608.js",
     "static/media/prncipal-R-sasikumar.jpg": "/static/media/prncipal-R-sasikumar.efa3fc40b9151e5a03f9.jpg",
     "static/media/hod cse (1).jpg": "/static/media/hod cse (1).d3e5a51ff5614ef6edc1.jpg",
     "static/media/bgimage.jpg": "/static/media/bgimage.c5255b189e715c17be9b.jpg",
     "static/media/Loganathan.jpg": "/static/media/Loganathan.070044cbf6bc37f3c2aa.jpg",
     "static/media/java-skillbee-logo copy.jpg": "/static/media/java-skillbee-logo copy.68c243309a72e672c254.jpg",
+    "static/media/logo.jpg": "/static/media/logo.caf0c84ced39e65c551e.jpg",
     "static/media/java-skillbee-logo copy.png": "/static/media/java-skillbee-logo copy.c8e28d842a144b696d21.png",
     "static/media/team5.jpg": "/static/media/team5.164cc465f2a11793bbcf.jpg",
     "static/media/team17.jpg": "/static/media/team17.36beda8e15c313bbf9cf.jpg",
@@ -30,10 +31,10 @@
     "static/media/VMKVEC-LOGO.jpg": "/static/media/VMKVEC-LOGO.3af29f7b4cf1e85d5c93.jpg",
     "index.html": "/index.html",
     "main.ce540eb6.css.map": "/static/css/main.ce540eb6.css.map",
-    "main.eb93f462.js.map": "/static/js/main.eb93f462.js.map"
+    "main.c0c44608.js.map": "/static/js/main.c0c44608.js.map"
   },
   "entrypoints": [
     "static/css/main.ce540eb6.css",
-    "static/js/main.eb93f462.js"
+    "static/js/main.c0c44608.js"
   ]
 }
