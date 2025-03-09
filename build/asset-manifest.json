@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/static/css/main.9a360616.css",
-    "main.js": "/static/js/main.bb9727d6.js",
+    "main.css": "/static/css/main.ce540eb6.css",
+    "main.js": "/static/js/main.eb93f462.js",
     "static/media/prncipal-R-sasikumar.jpg": "/static/media/prncipal-R-sasikumar.efa3fc40b9151e5a03f9.jpg",
     "static/media/hod cse (1).jpg": "/static/media/hod cse (1).d3e5a51ff5614ef6edc1.jpg",
     "static/media/bgimage.jpg": "/static/media/bgimage.c5255b189e715c17be9b.jpg",
@@ -29,11 +29,11 @@
     "static/media/team9.jpg": "/static/media/team9.321d9948c2a9ca1c2dee.jpg",
     "static/media/VMKVEC-LOGO.jpg": "/static/media/VMKVEC-LOGO.3af29f7b4cf1e85d5c93.jpg",
     "index.html": "/index.html",
-    "main.9a360616.css.map": "/static/css/main.9a360616.css.map",
-    "main.bb9727d6.js.map": "/static/js/main.bb9727d6.js.map"
+    "main.ce540eb6.css.map": "/static/css/main.ce540eb6.css.map",
+    "main.eb93f462.js.map": "/static/js/main.eb93f462.js.map"
   },
   "entrypoints": [
-    "static/css/main.9a360616.css",
-    "static/js/main.bb9727d6.js"
+    "static/css/main.ce540eb6.css",
+    "static/js/main.eb93f462.js"
   ]
 }

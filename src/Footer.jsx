@@ -12,12 +12,15 @@ const Footer = () => {
                 <p>Empowering Java learners since 2025.</p>
             </div>
             <div class="social-icons">
+                
                 <a href="#"><i class="fab fa-github"></i></a>
                 <a href="#"><i class="fab fa-linkedin"></i></a>
-                <a href="#"><i class="fab fa-discord"></i></a>
+                <a href="#"><i class="fa-brands fa-instagram"></i></a>
+                <a href=""><i class="fa-brands fa-twitter"></i></a>
+              
             </div>
         </div>
-        <p class="copyright">&copy; 2025 Javaskillj Bee. All rights reserved.</p>
+        <p class="copyright">&copy; 2025 Javaskill Bee. All rights reserved.</p>
     </footer>
     </div>
   )

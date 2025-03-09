@@ -12,6 +12,9 @@ const Header = () => {
   const navigate = useNavigate();
 
 
+
+
+
   return (
     <div style={{height:'100vh'}} >
       
@@ -29,7 +32,18 @@ const Header = () => {
 
           <h1 className="typing"><span>M</span>aster <span>J</span>ava <br /> with Javaskill Bee</h1>
           <p className="animate-fade">Join a community of passionate learners building real-world projects.</p> 
-          <button className='btn-grad button-pro' onClick={() => navigate('/projects')}>View Projects</button>
+          <div className="container btn-container">
+            <div className="row">
+              <div className="col-12 col-md-6">
+              <button className='btn-grad button-pro project-btn' onClick={() => navigate('/projects')}>View Projects</button>
+              </div>
+              <div className="col-12  col-md-6">
+              <button className='btn-grad button-pro team-btn' onClick={() => navigate('/teams')}>View Teams</button>
+              </div>
+            </div>
+          </div>
+         
+          
           </div>
           {/* <div className="col-12 side2-img" >
           

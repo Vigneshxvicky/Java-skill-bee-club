@@ -186,6 +186,7 @@ const Projects = () => {
             <Link to={`/projects/${project.id}`}>
               <Button >View Project</Button>
             </Link>
+            
           </ProjectCard>
         ))}
       </ProjectCardContainer>
