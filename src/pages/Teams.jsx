@@ -252,7 +252,7 @@ const TeamName = styled.h3`
 
 const teamsData = [
   {
-    name: 'Team X',
+    name: 'Code Champions',
     imageUrl: teamx,
   },
   {

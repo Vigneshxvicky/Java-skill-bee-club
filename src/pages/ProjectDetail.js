@@ -2,12 +2,14 @@ import React from 'react';
 import { useParams, useNavigate } from 'react-router-dom';
 import './ProjectDetail.css'
 import Footer from '../Footer';
+import img from './assets/teamx.jpg'
 
 const projectDetails = {  
   '1': {
     id: '1',
     team_name:'Talent Masters',
     title: 'Resume Builder',
+    pdf: "",
     members: 'Iswarya, Prabhavathi, Kaviya, Anjali',
     description: 'A resume builder is an online tool that you can use to quickly create a resume. Resume builders allow you to pick a pre-formatted resume template, fill in your contact and background information, and select pre-written work history bullet points — saving you a lot of time',
   },
@@ -15,6 +17,7 @@ const projectDetails = {
     id: '2',
     title: 'Snake Game',
     team_name:'Pro Actives',
+    pdf: "",
     members: 'Pranavi Tiwary , G.Prasanna',
     description: 'Snake game is a classic arcade game where players control a snake that grows longer as it consumes food while avoiding colliding with walls or itself. Its a simple yet addictive game that has been enjoyed by generations.',
   },
@@ -22,6 +25,7 @@ const projectDetails = {
     id: '3',
     title: 'Chatting',
     team_name:'Merit Makers',
+    pdf: "",
     members: 'Monisha.B , Monika.M',
     description: 'Java chat. Java chat applications are developed using the java programming language. Chat applications allow users to communicate with each other that should be in real-time. Where the messages are getting exchanged in real-time. It can run multiple client-server chats easily.',
   },
@@ -29,6 +33,7 @@ const projectDetails = {
     id: '4',
     title: 'Tic Tac Toe Game',
     team_name:'Brave Soft',
+    pdf: "",
     members: 'Pratyusha , Indumathi , Magila g',
     description: 'The tic-tac-toe game is for two players. One player plays X and the other plays O. The players take turns placing their marks on a grid of three-by-three cells. If a given player gets three marks in a row horizontally, vertically, or diagonally, then that player wins the game.',
   },
@@ -36,6 +41,7 @@ const projectDetails = {
     id: '5',
     title: 'Hotel Management System.(JDK)',
     team_name:'Techno Horses ',
+    pdf: "",
     members: 'Naveen Kumar ,Natarajan ,Muhammed Salman',
     description: 'he hotel management system will help to improve business efficiency and provide user friendly environment for the customers. The hotel management system works as a bridge between staff and customers to fulfill the needs of the customers in an efficient manner.',
   },
@@ -43,6 +49,7 @@ const projectDetails = {
     id: '6',
     title: 'ATM Simulation System ',
     team_name:'Rapid Developers',
+    pdf: "",
     members: 'Abhinay , Arul dass , Himansu kumar',
     description: 'The "ATM Simulator System" project is a model Internet Banking St. This site enables the customers toper form the basic banking transactions. The system provides the access to the customer to create an account, deposit/withdraw the cash from his account, also to view reports of all accounts present.',
   },
@@ -50,6 +57,7 @@ const projectDetails = {
     id: '7',
     title: 'Travel Management System ',
     team_name:'Tech Masters',
+    pdf: "",
     members: 'Saiyad Mabhu Subhani,Santhosh Kumar,Vineet Kumar,Shivam Bharathwaj',
     description: 'Travel management systems (TMS) are one-stop software systems where all of a companys travel arrangements can be handled. The platform helps you manage travel budgeting, policy, and reporting, so you can be sure that everything is always running as it should.',
   },
@@ -64,6 +72,7 @@ const projectDetails = {
     id: '9',
     title: 'Employee Management System',
     team_name:'Data  Twisters ',
+    pdf: "",
     members: 'Kumaran,Mallela Naga babu,MD sarique ansari',
     description: 'Human resource management (HRM) is the practice of recruiting, hiring, deploying and managing an organizations employees. HRM is often referred to simply as human resources (HR)',
   },
@@ -71,6 +80,7 @@ const projectDetails = {
     id: '10',
     title: 'Quiz Application',
     team_name:'App Monsters',
+    pdf: "",
     members: 'Srisudha Parimala,Sanjana,Rehana',
     description: 'The project: “Quiz Application” is a collection of number of different types of quizzes like technical, games, sports, etc. A user can access/play all of the quiz and can attempt any of the one. There will be limited number of questions and for each correct answer user will get a credit score.',
   },
@@ -78,6 +88,7 @@ const projectDetails = {
     id: '11',
     title: 'University Management System (JDK-17).',
     team_name:'Code Architects',
+    pdf: "",
     members: 'Srivarshini,Sunmathi,Varnika,Nivedha',
     description: 'A University Information Management System centralizes all university data, including student records, course management, faculty information, and financial details, making it easily accessible and manageable.',
   },
@@ -85,6 +96,7 @@ const projectDetails = {
     id: '12',
     title: 'Airline Management System (JDK-17).',
     team_name:'Java Squad ',
+    pdf: "",
     members: 'Ashok,Kasinathan,MohanRaj',
     description: 'The Airline Management system covers everything from booking flights and managing customer data to tracking flight schedules and updates. By providing a comprehensive solution for the airline industry, these systems aim to streamline processes, improve efficiency, and enhance the customer experience',
   },
@@ -92,6 +104,7 @@ const projectDetails = {
     id: '13',
     title: 'Flappy Bird ',
     team_name:'Code Champions',
+    pdf:"https://drive.google.com/file/d/1Dhzm2sOer5xW4AoV2w8W5y2dbshMHgPT/view?usp=sharing",
     members: 'Soundareswaran,Vignesh,Sanjay Prakash',
     description: 'it is an endless runner game with a one-button gaming design to control a bird to fly through gaps between green pipes without hitting them for as long as you can. The gameplay was inspired by the challenge of bouncing a ping pong ball on a paddle as many times as you',
   },
@@ -99,6 +112,7 @@ const projectDetails = {
     id: '14',
     title: 'Space-Invaders',
     team_name:'Inno Ventures ',
+    pdf: "",
     members: 'Arun Kumar,Rajasekar,Rajesh,Pachaiyappan',
     description: 'Space Invaders is a fixed shooter in which the player moves a laser cannon horizontally across the bottom of the screen and fires at aliens overhead. The aliens begin as five rows of eleven that move left and right as a group, shifting downward (advancing on the shooter) each time they reach a screen edge.',
   },
@@ -106,6 +120,7 @@ const projectDetails = {
     id: '15',
     title: 'Stock Management System',
     team_name:'Byte Brigade ',
+    pdf: "",
     members: 'Yuvaraj , Aadharsh , Kathir , Midhunananthan , Chandranath',
     description: 'A stock management system is a software that helps businesses manage their inventory. It helps prevent stock shortages and overstocking. '
   },
@@ -113,6 +128,7 @@ const projectDetails = {
     id: '16',
     title: 'F arming Assistant System',
     team_name:'Innovation Gurus ',
+    pdf: "",
     members: 'Rustam Mansuri,Suman Kumar,Raushan Raj',
     description: 'The Farming Assistant system collects and analyzes data from the farm and offers a planning feature. This feature determines the type of crops, quantities of fertilizers required, the time of application, and appropriate pest control. The system further suggests how and when to conduct different farm activities.',
   },
@@ -121,6 +137,7 @@ const projectDetails = {
     id: '17',
     title: 'Chrome Dinosaur',
     team_name:'Cyber Titans',
+    pdf: "",
     members: 'Sankar ganesh , Monish kumar , Murugavel , Kamalesh , Senthammzh',
     description: 'There`s literally no end: get to the maximum possible score of 99,999 and the game simply resets itself. You can`t change direction and you have no control over your speed. All you can do is jump and duck. That`s plenty.'
   },
@@ -128,6 +145,7 @@ const projectDetails = {
     id: '18',
     title: 'Memory Cards',
     team_name:'Visionary Developers',
+    pdf: "",
     members: 'Saranya  , Dharshini , Sathiya priya  , Pooja sri , Monika, Megala , Dhanalakshmy',
     description: 'A memory card is a portable storage device that is commonly used in electronic devices such as digital cameras, smartphones, tablets, and gaming consoles. It is designed to store and transfer data, including photos, videos, music, and documents.'
   },
@@ -135,6 +153,7 @@ const projectDetails = {
     id: '19',
     title: 'Supermarket Billing',
     team_name:'Code Pioneers',
+    pdf: "",
     members: 'Shafiya Kullsum  , Thrisha , Srividhya  , Varsha  , Keerthana , Rafiya , Pooja , Reena ',
     description: 'Supermarket billing is a system that helps supermarkets calculate and display bills, and manage their sales, purchases, and inventory. It can also help with customer data, loyalty programs, and accounting. '
   },
@@ -142,6 +161,7 @@ const projectDetails = {
     id: '20',
     title: 'Tic Tac Toe',
     team_name:'Future Coders',
+    pdf: "",
     members: 'Janet Salomon , Vignesh , Deepak kumar  , Devanand  , Ragul ',
     description: 'The game is played on a grid that`s 3 squares by 3 squares. You are X , your friend (or the computer in this case) is O . Players take turns putting their marks in empty squares. The first player to get 3 of her marks in a row (up, down, across, or diagonally) is the winner.'
   }
@@ -156,10 +176,14 @@ const ProjectDetail = () => {
   if (!project) {
     return (
       <div >
-        <h2>Project Not Found</h2>
-        <button onClick={() => navigate(-1)} id='btn' className="btn-back">Back</button>
+        <h2 className='text-white'>Project Not Found</h2>
+        <button onClick={() => navigate(-1)} id='btn' className=" btn btn-primary">Back</button>
       </div>
     );
+  }
+
+  const btnlink=()=>{
+    window.location.href=project.pdf
   }
 
   return (
@@ -178,7 +202,8 @@ const ProjectDetail = () => {
               <hr/>
               <h2>TEAM NAME : {project.team_name}</h2>
               <h2>Team Members : {project.members}</h2>
-
+              {/* <p className='para'>Click to View Project</p> */}
+              <button id='pdf_btn' onClick={btnlink} className='btn btn-primary'>Download PDF</button>
             </div>
         </div>
       </div>

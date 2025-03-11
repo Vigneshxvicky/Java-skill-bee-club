@@ -11,6 +11,11 @@
    
     
 }
+/* .para{
+    position: relative;
+    top: 20px;
+} */
+
 button{
     margin-top: 10px;
 }
@@ -31,7 +36,9 @@ button{
     margin-top: 40px;
     background-color: blue;
 } 
-
+#pdf_btn{
+    width: 200px;
+}
 
 /*.project-detail{
     width: 100%;
