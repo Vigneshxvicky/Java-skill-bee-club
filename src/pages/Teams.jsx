@@ -186,6 +186,9 @@ import team17 from './assets/team17.jpg';
 // import team18 from './assets/team18.jpg';//to be added in after the data has been fetched
 import team19 from './assets/team19.jpg';
 import team20 from './assets/team20.jpg';
+import teamx from './assets/teamx.jpg';
+import team0 from './assets/team0.jpg';
+
 
 // footer
 import Footer from '../Footer';
@@ -250,7 +253,7 @@ const TeamName = styled.h3`
 const teamsData = [
   {
     name: 'Team X',
-    imageUrl: "https://th.bing.com/th/id/OIP._66wH2WuYOk-A-METtgMxAAAAA?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7 ",
+    imageUrl: teamx,
   },
   {
     name: 'Code Architects',
@@ -318,7 +321,7 @@ const teamsData = [
   },
   {
     name: 'Techno Horses',
-    imageUrl: "https://th.bing.com/th/id/OIP._66wH2WuYOk-A-METtgMxAAAAA?w=178&h=180&c=7&r=0&o=5&dpr=1.3&pid=1.7 ",
+    imageUrl: team0,
   },
   {
     name: 'Talent Masters',

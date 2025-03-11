@@ -111,7 +111,7 @@ const projectDetails = {
   },
   '16': {
     id: '16',
-    title: 'Farming Assistant System',
+    title: 'F arming Assistant System',
     team_name:'Innovation Gurus ',
     members: 'Rustam Mansuri,Suman Kumar,Raushan Raj',
     description: 'The Farming Assistant system collects and analyzes data from the farm and offers a planning feature. This feature determines the type of crops, quantities of fertilizers required, the time of application, and appropriate pest control. The system further suggests how and when to conduct different farm activities.',

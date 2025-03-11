@@ -22,8 +22,7 @@ import Teams from "./pages/Teams";
 function App() {
 
 
-
-
+console.log("hi there this site is developed by "+"\n ©️ THE TEAM X ™️"+"\n Designed and Developed by" +"\n ✨K.VIGNESH / IT "+"\n ✨S.R.SOUNDHARESHWARAN / CSE"+"\n ✨S.SANJAYPRAKASH /CSE ")
    const openNav=()=> {
     document.getElementById("mySidenav").style.width = "250px";
   }
