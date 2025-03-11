@@ -188,6 +188,7 @@ import team19 from './assets/team19.jpg';
 import team20 from './assets/team20.jpg';
 import teamx from './assets/teamx.jpg';
 import team0 from './assets/team0.jpg';
+import team99 from './assets/team99.jpg';
 
 
 // footer
@@ -313,7 +314,7 @@ const teamsData = [
   },
   {
     name: 'Innovation Gurus',
-    imageUrl: team16,
+    imageUrl: team99,
   },
   {
     name: 'Brave Soft',
